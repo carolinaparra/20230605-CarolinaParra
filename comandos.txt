@@ -1,0 +1,18 @@
+167  pwd
+  168  touch comandos.txt main.js index.html
+  169  git init
+  170  git add .
+  171  git commit -m "commit 01 de CarolinaParra"
+  172  git remote add origin https://github.com/carolinaparra/20230605-CarolinaParra.git
+  173  git push origin master
+  174  git branch feature
+  175  git checkout feature
+  176  mkdir Hardware Software SeguridadInformatica
+  177  touch Hardware/comandos.txt Software/comandos.txt SeguridadInformatica/comandos.txt
+  178  git add .
+  179  git commit -m "commit 02 CarolinaParra"
+  180  git push origin feature
+  181  git checkout master
+  182  mv main.js resumenHardware.txt   
+  183  mv index.html resumenSoftware.txt  
+  184  history
